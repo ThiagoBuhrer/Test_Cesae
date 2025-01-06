@@ -1,0 +1,9 @@
+nome = prompt("Nome: ")
+document.body.innerHTML += `<p>Chamo-me <strong>${nome}</strong></p>`
+document.body.innerHTML += `<p>O(a) ${nome} tem ${nome.length} letras</p>`
+document.body.innerHTML += `<p>A segunda letra do meu nome é ${nome[1]}</p>`
+document.body.innerHTML += `<p>O índice da letra "e" do meu nome é ${nome.indexOf("e")}</p>`
+document.body.innerHTML += `<p>O último índice da letra "r" do meu nome é ${nome.lastIndexOf("r")}</p>`
+document.body.innerHTML += `<p>As últimas 3 letras do meu nome são ${nome.slice(-3)}</p>`
+document.body.innerHTML += `<p>As palavras do meu nome são ${nome.split(" ")}</p>`
+document.body.innerHTML += `<p>Nome em mínusculas ${nome.toLowerCase()} e em maíusculas ${nome.toUpperCase()}</p>` 

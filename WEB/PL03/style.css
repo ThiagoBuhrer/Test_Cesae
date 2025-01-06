@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(155, 195, 189);
+    padding: 60px;
+    }
+h1{
+    color: rgb(39, 85, 78);
+    font-size: 70px;
+    text-align: center;
+}
+h2, h3, h4, h5, h6{
+    color: rgb(39, 85, 78);
+}
+#alinhaEsquerda {
+    text-align: left;
+}
+#alinhaDireita {
+    text-align: right;
+}
+p{
+    id: ”alinhaEsquerda”;
+    text-align: center;
+    color: rgb(39, 85, 78);
+}
+.classe_de_paragrafo_1{
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(132, 175, 169);
+    color: rgb(39, 85, 78);
+    border-style: double;
+    border-width: 4px;
+    border-radius: 12px;
+    padding: 20px;
+}
+.classe_de_paragrafo_2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.classe_de_paragrafo_3 {
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px;
+      
+}
+#identificador_de_pagrafo_1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(39, 85, 78);
+    color: rgb(155, 195, 189);
+    font-size: 30px;
+    border-radius: 12px;
+    padding: 20px;
+}

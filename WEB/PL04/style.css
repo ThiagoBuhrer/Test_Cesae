@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+nav {
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+nav a { /* nav a trata apenas dos links contidos na nav */
+    color: white;
+    text-decoration: none;
+    margin-right: 12px; /* adiciona espaçamento entre os links */
+}
+footer a { /* footer a trata apenas dos links contidos no footer */
+    color: white;
+    text-decoration: none;
+    margin-right: 35px; /* adiciona espaçamento entre os links */
+}
+
